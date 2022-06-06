@@ -1,226 +1,65 @@
-<html>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
-        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-        <style type="text/css">
-                @import url('https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98');
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-                ol {
-                        margin: 0;
-                        padding: 0
-                }
+    <title>TSBFY</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-                table td,
-                table th {
-                        padding: 0
-                }
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap" rel="stylesheet">
 
-                .c1 {
-                        color: #000000;
-                        font-weight: 400;
-                        text-decoration: none;
-                        vertical-align: baseline;
-                        font-size: 12pt;
-                        font-family: "Times New Roman";
-                        font-style: normal
-                }
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-                .c8 {
-                        color: #000000;
-                        font-weight: 700;
-                        text-decoration: none;
-                        vertical-align: baseline;
-                        font-size: 14pt;
-                        font-family: "Times New Roman";
-                        font-style: normal
-                }
-
-                .c2 {
-                        padding-top: 0pt;
-                        text-indent: 36pt;
-                        padding-bottom: 8pt;
-                        line-height: 1.0;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: justify
-                }
-
-                .c4 {
-                        padding-top: 0pt;
-                        padding-bottom: 8pt;
-                        line-height: 1.0;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                .c0 {
-                        padding-top: 0pt;
-                        padding-bottom: 8pt;
-                        line-height: 1.0;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: center
-                }
-
-                .c3 {
-                        padding-top: 0pt;
-                        padding-bottom: 8pt;
-                        line-height: 1.0;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: justify
-                }
-
-                .c6 {
-                        background-color: #ffffff;
-                        max-width: 451.3pt;
-                        padding: 72pt 72pt 72pt 72pt
-                }
-
-                .c5 {
-                        font-size: 12pt;
-                        font-family: "Times New Roman";
-                        font-weight: 400
-                }
-
-                .c7 {
-                        font-style: italic
-                }
-
-                .title {
-                        padding-top: 24pt;
-                        color: #000000;
-                        font-weight: 700;
-                        font-size: 36pt;
-                        padding-bottom: 6pt;
-                        font-family: "Calibri";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                .subtitle {
-                        padding-top: 18pt;
-                        color: #666666;
-                        font-size: 24pt;
-                        padding-bottom: 4pt;
-                        font-family: "Georgia";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        font-style: italic;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                li {
-                        color: #000000;
-                        font-size: 11pt;
-                        font-family: "Calibri"
-                }
-
-                p {
-                        margin: 0;
-                        color: #000000;
-                        font-size: 11pt;
-                        font-family: "Calibri"
-                }
-
-                h1 {
-                        padding-top: 24pt;
-                        color: #000000;
-                        font-weight: 700;
-                        font-size: 24pt;
-                        padding-bottom: 6pt;
-                        font-family: "Calibri";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                h2 {
-                        padding-top: 18pt;
-                        color: #000000;
-                        font-weight: 700;
-                        font-size: 18pt;
-                        padding-bottom: 4pt;
-                        font-family: "Calibri";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                h3 {
-                        padding-top: 14pt;
-                        color: #000000;
-                        font-weight: 700;
-                        font-size: 14pt;
-                        padding-bottom: 4pt;
-                        font-family: "Calibri";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                h4 {
-                        padding-top: 12pt;
-                        color: #000000;
-                        font-weight: 700;
-                        font-size: 12pt;
-                        padding-bottom: 2pt;
-                        font-family: "Calibri";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                h5 {
-                        padding-top: 11pt;
-                        color: #000000;
-                        font-weight: 700;
-                        font-size: 11pt;
-                        padding-bottom: 2pt;
-                        font-family: "Calibri";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-
-                h6 {
-                        padding-top: 10pt;
-                        color: #000000;
-                        font-weight: 700;
-                        font-size: 10pt;
-                        padding-bottom: 2pt;
-                        font-family: "Calibri";
-                        line-height: 1.0791666666666666;
-                        page-break-after: avoid;
-                        orphans: 2;
-                        widows: 2;
-                        text-align: left
-                }
-        </style>
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/style.css" rel="stylesheet">
 </head>
 
-<body class="c6">
-        <p class="c4"><span class="c1">Nurlaila Febriani Is&rsquo;ad</span></p>
-        <p class="c4"><span class="c1">1209619038/19SB</span></p>
-        <p class="c4"><span class="c1">Romance</span></p>
-        <p class="c0"><span class="c8">Catch You on The Outskirts</span></p>
-        <p class="c2"><span class="c1">Life in the city has always been such an exciting event for Louis. Growing up in
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <a href="../index.html" class="logo me-auto"><img src="../assets/img/Upper_Button.png" alt=""
+                    class="img-fluid"></a>
+
+            <nav id="navbar" class="navbar">
+                <ul class="nav nav-pills me-auto align-items-sm-center">
+                    <li><a class="nav-link scrollto" href="../collection.html">Collection</a></li>
+                    <li><a class="nav-link scrollto" href="../genre.html">Genre</a></li>
+                    <li><a class="nav-link scrollto" href="../aboutus.html">About Us</a></li>
+                    <li><a class="nav-link scrollto" href="../#services">Admin</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+   <!-- story section -->
+  <section id="story">
+    <div id="story-all" class="story-all">
+        <div id="judul" class="judul">
+            <h3>Hasta La Vista</h3>
+            <h6>Rosdiana Sahara</h6>
+            <h6>Romance</h6>
+        </div>
+    </div>
+    <div id="story-all" class="story-all">
+        <div id="cerita" class="cerita">
+            <div class="container">
+            <div class="row justify-content-center">
+                <div class=col-8>
+            <p>
+                Life in the city has always been such an exciting event for Louis. Growing up in
                         the rural area of the country, there wasn&#39;t much the place could offer him. Everywhere he
                         looked, he was met with the vast empty space of the hills. If he was lucky enough, he&rsquo;d
                         catch a glimpse of other&rsquo;s cows and sheep munching on the grass, of little kids playing
@@ -378,6 +217,24 @@
                         when I come again, yeah? Here, on the outskirts of this village?&rdquo;</span></p>
         <p class="c2"><span class="c1">A grin slowly appears on Ellie&rsquo;s face, and yeah, Louis likes that much
                         better.</span></p>
-</body>
 
+            
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+</body>
 </html>
