@@ -16,6 +16,7 @@
 # Navigation Menu
 --------------------------------------------------------------*/
 
+
 .navbar {
   padding: 0;
 }
@@ -489,4 +490,23 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+/*--------------------------------------------------------------
+# story css
+--------------------------------------------------------------*/
+#story .story-all .judul h3 {
+  text-align:center;
+  padding-top:30px;
+}
+
+#story .story-all .judul h6 {
+  text-align:center;
+  padding-top:15px;
+}
+
+#story .story-all .cerita p {
+  text-align:justify;
+  text-justify:inter-word;
+  padding-left:15px;
+  padding-top:15px;
 }
