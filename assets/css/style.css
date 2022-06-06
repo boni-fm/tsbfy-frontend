@@ -490,7 +490,10 @@ section {
     padding-top: 4px;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3e41590ecfde002c7db95453976867751fa73f05
 /*--------------------------------------------------------------
 # Story Page
 --------------------------------------------------------------*/
@@ -500,6 +503,7 @@ section {
   padding-top:30px;
 }
 
+<<<<<<< HEAD
 #testing {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -517,3 +521,16 @@ section {
 		background-position: 0% 50%;
 	}
 }
+=======
+#story .story-all .judul h6 {
+  text-align:center;
+  padding-top:15px;
+}
+
+#story .story-all .cerita p {
+  text-align:justify;
+  text-justify:inter-word;
+  padding-left:15px;
+  padding-top:15px;
+}
+>>>>>>> 3e41590ecfde002c7db95453976867751fa73f05
