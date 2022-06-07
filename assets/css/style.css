@@ -640,3 +640,8 @@ mark {
   text-align: end;
   padding: 10px;
 }
+
+.pagination>li.active>a {
+  background: #74665e;
+  color: #fff;
+}
