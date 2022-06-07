@@ -784,6 +784,7 @@ section {
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+}
 mark { 
   background-color: #74665e;
   color: white;
