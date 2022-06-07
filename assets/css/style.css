@@ -6,13 +6,12 @@
   transition: all 0.5s;
   z-index: 997;
   padding: 12px 0;
-  background: #6e5b51;
-
+  background: #5E534F;
 }
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #6e5b51;
+  background: #5E534F;
   opacity: 0.9;
 }
 
@@ -62,8 +61,12 @@
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
-  color: #453730;
+.navbar li:hover>a{
+  color: #F6F3CB;
+}
+
+.navbar .nav-pills li.active a{
+  color: #F6F3CB;
 }
 
 .navbar .getstarted,
@@ -74,14 +77,14 @@
   color: #BDBDBD;
   font-family: 'League Spartan', sans-serif;
   font-size: 17px;
-  border: 2px solid #453730;
+  border: 2px solid #5E534F;
   font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #BDBDBD;
-  background: #453730;
+  background: #5E534F;
 }
 
 /*--------------------------------------------------------------
@@ -106,11 +109,11 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #453730;
+  color: #5E534F;
 }
 
 #hero h2 {
-  color: #74665e(255, 255, 255, 0.6);
+  color: #5E534F(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-family: 'League Spartan', sans-serif;
   font-size: 24px;
@@ -127,11 +130,11 @@
   transition: 0.5s;
   margin: 20px 0 0 0;
   color: #F6F3CB;
-  background: #74665e;
+  background: #5E534F;
 }
 
 #hero .btn-get-started:hover {
-  color: #74665e;
+  color: #5E534F;
   background: #F6F3CB;
 }
 
@@ -241,7 +244,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #fffde6;
+  background: #F6F3CB;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -252,7 +255,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #b49f98;
+  background: #F6F3CB;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -628,10 +631,6 @@ section {
   border-radius: 15px;
 }
 
-/*--------------------------------------------------------------
-# Pagination
---------------------------------------------------------------*/
-
 a {
   text-decoration: none
 }
@@ -714,7 +713,7 @@ a {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #6e5b51;
+  background: #5E534F;
   padding: 60px 0;
 }
 
@@ -818,7 +817,11 @@ mark {
 .pagination>li.active>a {
   background: #74665e;
   color: #fff;
+}
 
+.pagination>li>a {
+  background: #faf8e2;
+  color: #74665e;
 }
 
 span {
