@@ -630,7 +630,13 @@ section {
 # Pagination
 --------------------------------------------------------------*/
 
-.recent-blog-posts .post-box a {
+ a {
   text-decoration:none
 }
 
+mark { 
+  background-color: #74665e;
+  color: white;
+  text-align: end;
+  padding: 10px;
+}
