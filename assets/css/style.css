@@ -291,6 +291,7 @@ section {
 .services .icon-box h4 a {
   color: #5E534F;
   transition: ease-in-out 0.3s;
+  text-decoration:none
 }
 
 .services .icon-box p {
@@ -628,4 +629,8 @@ section {
 /*--------------------------------------------------------------
 # Pagination
 --------------------------------------------------------------*/
+
+.recent-blog-posts .post-box a {
+  text-decoration:none
+}
 
