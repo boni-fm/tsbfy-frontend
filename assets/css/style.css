@@ -630,7 +630,7 @@ section {
 # Pagination
 --------------------------------------------------------------*/
 
-.recent-blog-posts .post-box a {
+ a {
   text-decoration:none
 }
 
@@ -784,4 +784,14 @@ section {
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+mark { 
+  background-color: #74665e;
+  color: white;
+  text-align: end;
+  padding: 10px;
+}
+
+.pagination>li.active>a {
+  background: #74665e;
+  color: #fff;
 }
