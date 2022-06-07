@@ -1,10 +1,13 @@
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 #header {
   transition: all 0.5s;
   z-index: 997;
   padding: 12px 0;
+  background: #6e5b51;
+
 }
 
 #header.header-scrolled,
@@ -12,7 +15,6 @@
   background: #6e5b51;
   opacity: 0.9;
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -291,11 +293,11 @@ section {
 .services .icon-box h4 a {
   color: #5E534F;
   transition: ease-in-out 0.3s;
-  text-decoration:none
+  text-decoration: none
 }
 
 .services .icon-box p {
- font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -320,12 +322,12 @@ section {
 }
 
 .recent-blog-posts .post-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.15);
   transition: 0.3s;
   height: 100%;
   overflow: hidden;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 30px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -577,20 +579,20 @@ section {
 # story css
 --------------------------------------------------------------*/
 #story .story-all .judul h3 {
-  text-align:center;
-  padding-top:30px;
+  text-align: center;
+  padding-top: 30px;
 }
 
 #story .story-all .judul h6 {
-  text-align:center;
-  padding-top:15px;
+  text-align: center;
+  padding-top: 15px;
 }
 
 #story .story-all .cerita p {
-  text-align:justify;
-  text-justify:inter-word;
-  padding-left:15px;
-  padding-top:15px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -614,7 +616,7 @@ section {
   padding-top: 15px;
 }
 
- .card {
+.card {
   position: absolute;
   left: 0%;
   right: 0%;
@@ -630,11 +632,11 @@ section {
 # Pagination
 --------------------------------------------------------------*/
 
- a {
-  text-decoration:none
+a {
+  text-decoration: none
 }
 
-mark { 
+mark {
   background-color: #74665e;
   color: white;
   text-align: end;
@@ -644,4 +646,9 @@ mark {
 .pagination>li.active>a {
   background: #74665e;
   color: #fff;
+
+}
+
+span {
+  color: #6e5b51;
 }
